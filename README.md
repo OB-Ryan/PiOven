@@ -17,14 +17,14 @@ PiOven is a utility that allows you to actively monitor, log, and analyze temper
     ```
 1. (Optional) Adjust the sampling interval in the `monitor_temp` script
     - Open the file for editing:
-    ```bash
-    nano monitor_temp.sh
-    ```
-    - Change `MONITOR_INTERVAL=1` to the desired sampling interval, in seconds:
-    ```bash
-    MONITOR_INTERVAL=<Desired time between samples in seconds>
-    ```
+        ```bash
+        nano monitor_temp.sh
+        ```
+    - Change `MONITOR_INTERVAL` to the desired sampling interval, in seconds:
+        ```bash
+        MONITOR_INTERVAL=<Desired time between samples in seconds>
+        ```
     - Save the file by with `ctrl+O`
     - Exit the editor with `ctrl+X`
-1. Use the command `make help` to show usage 
+1. Use the command `make help` to show usage
 
