@@ -13,7 +13,7 @@ help:
 	@echo "${GREEN} make monitor${NO_COLOR}          - Start temperature monitoring script in the background"
 	@echo "${GREEN} make analyze${NO_COLOR}          - Analyze collected data"
 	@echo "${GREEN} make stop${NO_COLOR}             - Kill instance of monitoring script, if it exists"
-	@echo "${GREEN} make clean-data${NO_COLOR}       - Stop tempreture monitoring script and clear contents of tempreture log"
+	@echo "${GREEN} make clean-data${NO_COLOR}       - Stop temperature monitoring script and clear contents of temperature log"
 	@echo "${GREEN} make show-output${NO_COLOR}      - Follow the output appended to ${TEMP_FILE}"
 
 stop:
