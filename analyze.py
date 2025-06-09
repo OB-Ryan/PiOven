@@ -33,9 +33,9 @@ def analyze_temp():
         
         average_temp = running_total / iterations
         print(f'Analysis for {iterations} samples:')
-        print(f'{BLUE}Lowest temperature{NO_COLOR}:     {round(lowest_temp, 2)}\'C')
-        print(f'{YELLOW}Average temperature{NO_COLOR}:    {round(average_temp, 2)}\'C')
-        print(f'{RED}Highest temperature{NO_COLOR}:    {round(highest_temp, 2)}\'C')
+        print(f'{BLUE}Lowest Temperature{NO_COLOR}:     {round(lowest_temp, 2)}\'C')
+        print(f'{YELLOW}Average Temperature{NO_COLOR}:    {round(average_temp, 2)}\'C')
+        print(f'{RED}Highest Temperature{NO_COLOR}:    {round(highest_temp, 2)}\'C')
     except Exception as e:
         print(f'Error analyzing {TEMP_FILE}: {e}')
 
